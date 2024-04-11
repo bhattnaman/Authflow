@@ -37,7 +37,7 @@ const config = {
     authRequired: false,
     auth0Logout: true,
     secret: 'a long, randomly-generated string stored in env',
-    baseURL: 'http://localhost:3000',
+    baseURL: 'https://authflow-cefe3af2fc5d.herokuapp.com',
     clientID: 'aRRWvT018Ls2zbNLDloG5vDRL8qwVYEx',
     issuerBaseURL: 'https://authflowauthenticator.us.auth0.com'
   };
