@@ -19,7 +19,7 @@ const { auth } = require('express-openid-connect');
 const mysql = require('mysql');
 
 const app = express();
-const port = 3000; // Default port or choose your preferred one
+const port = process.env.PORT || 3000;
 
 
 /**
